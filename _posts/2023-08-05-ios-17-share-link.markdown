@@ -47,4 +47,6 @@ In this view we first tap `AirDrop` followed to placing our device close to anot
 
 Ambre has support for Universal Linking, which means the received URL will open up Ambre and present the shared recipe. Here's what it looks like:
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/2w5ni7mOmy4" frameborder="0" allowfullscreen></iframe>
+<center>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2w5ni7mOmy4?si=-ENcnuHwZpv_eoiW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
