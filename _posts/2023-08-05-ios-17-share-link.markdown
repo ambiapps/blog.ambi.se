@@ -3,6 +3,7 @@ layout: post
 title:  "Using ShareLink to share content using NameDrop"
 date:   2023-08-05 12:00:00 +0200
 categories: ios17 shareLink SwiftUI NameDrop
+image: /assets/img/shareSheet.png
 published: true
 ---
 At WWDC 23 a new feature named NameDrop was introduced. This feature makes it possible to share content from one device to another by simple placing them close to each other. To support this there are a few things we have to do.

@@ -3,6 +3,7 @@ layout: post
 title: "Style your app intents"
 date: 2023-08-29 08:00:00 +0200
 categories: ios17 intent appIntents shortcuts
+image: /assets/img/tintedIntent.png
 published: true
 ---
 
