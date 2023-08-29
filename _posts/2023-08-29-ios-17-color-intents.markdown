@@ -31,4 +31,4 @@ The intent colors are defined in your `Info.plist`, you set them by adding the f
 
 The color assets `ShortcutsForeground`, `ShortcutsBackground1` and `ShortcutsBackground2` have to be defined in an `.assets` folder.
 
-That's it! As you see we have defined two background colors to get a subtle gradient.
+That's it! As you see we have defined two background colors to get a subtle gradient in our Ambre intents.
