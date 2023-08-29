@@ -40,7 +40,7 @@ ShareLink(
 
 If we tap the ShareLink button the following share sheet is presented:
 
-![name of the image]({{site.url}}/assets/img/shareSheet.png)
+![Share sheet screenshot]({{site.url}}/assets/img/shareSheet.png)
 
 In this view we first tap `AirDrop` followed to placing our device close to another unlocked device. The NameDrop animation occurs and the content is transferred.
 
