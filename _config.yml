@@ -20,7 +20,6 @@
 
 permalink: /:title
 title: Ambi Studio Blog
-email: hello@ambi.se
 description: >- # this means to ignore newlines until "baseurl:"
   Our blog is where we share stories about our indie journey, new product updates and 
   knowledge we pick up along the way.
@@ -30,10 +29,25 @@ url: "https://blog.ambi.se" # the base hostname & protocol for your site, e.g. h
 twitter_username: ambiapps
 github_username:  ambiapps
 
+author:
+  name: Ambi Studio AB
+  email: "hello@ambi.se"
+
+show_excerpts: true
+
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
+minima:
+  skin: auto
+  social_links:
+    - { platform: twitter, user_url: "https://twitter.com/ambiapps" }
+    - { platform: github,  user_url: "https://github.com/ambiapps" }
+    - { platform: linkedin,  user_url: "https://se.linkedin.com/company/ambistudio" }
+    - { platform: mastodon, user_url: "https://mastodon.social/@ambiapps" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
