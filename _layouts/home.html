@@ -32,10 +32,12 @@ layout: base
           </a>
         </h3>
         <div class="post-list-body">
-          <img src={{site.url}}{{ post.image }}>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
+          <a href="{{ post.url | relative_url }}">
+            <img src={{site.url}}{{ post.image }}>
+            {%- if site.show_excerpts -%}
+                {{ post.excerpt }}
+            {%- endif -%}
+          </a>
         </div>
       </li>
       {%- endfor -%}
